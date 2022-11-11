@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Customers from './component/admin/Customers';
+import Functional from './component/Functional-components/Functional';
+import MouseHook from './component/Functional-components/MouseHook';
+import UploadImageToS3WithNativeSdk from './component/Functional-components/UploadImageToS3WithNativeSdk';
+
+require("bootstrap/less/bootstrap.less");
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <center><h1>React admin</h1></center>  */}
+        {/* <Functional /> */}
+        {/* <MouseHook /> */}
+        <UploadImageToS3WithNativeSdk />
+       
     </div>
   );
 }
