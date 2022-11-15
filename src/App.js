@@ -4,7 +4,9 @@
 // import MouseHook from './component/Functional-components/MouseHook';
 // import UploadImageToS3WithNativeSdk from './component/Functional-components/UploadImageToS3WithNativeSdk';
 
-import Alert from "./component/Functional-components/Alert";
+import Toastify from "./component/Functional-components/Toastify";
+
+// import Alert from "./component/Functional-components/Alert";
 
 require("bootstrap/less/bootstrap.less");
 function App() {
@@ -14,7 +16,8 @@ function App() {
         {/* <Functional /> */}
         {/* <MouseHook /> */}
         {/* <UploadImageToS3WithNativeSdk /> */}
-       <Alert />
+       {/* <Alert /> */}
+       <Toastify />
     </div>
   );
 }
