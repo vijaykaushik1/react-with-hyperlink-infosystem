@@ -1,8 +1,10 @@
 
-import Customers from './component/admin/Customers';
-import Functional from './component/Functional-components/Functional';
-import MouseHook from './component/Functional-components/MouseHook';
-import UploadImageToS3WithNativeSdk from './component/Functional-components/UploadImageToS3WithNativeSdk';
+// import Customers from './component/admin/Customers';
+// import Functional from './component/Functional-components/Functional';
+// import MouseHook from './component/Functional-components/MouseHook';
+// import UploadImageToS3WithNativeSdk from './component/Functional-components/UploadImageToS3WithNativeSdk';
+
+import Alert from "./component/Functional-components/Alert";
 
 require("bootstrap/less/bootstrap.less");
 function App() {
@@ -11,8 +13,8 @@ function App() {
         {/* <center><h1>React admin</h1></center>  */}
         {/* <Functional /> */}
         {/* <MouseHook /> */}
-        <UploadImageToS3WithNativeSdk />
-       
+        {/* <UploadImageToS3WithNativeSdk /> */}
+       <Alert />
     </div>
   );
 }

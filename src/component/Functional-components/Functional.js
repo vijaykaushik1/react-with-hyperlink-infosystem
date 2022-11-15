@@ -4,7 +4,6 @@ const Functional = () => {
     const [count, setCount] = useState(0);
     useEffect(()=>{
         document.title = `You clicked ${count} times`;
-
     })
   return (
     <div>
