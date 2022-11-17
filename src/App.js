@@ -4,7 +4,7 @@
 // import MouseHook from './component/Functional-components/MouseHook';
 // import UploadImageToS3WithNativeSdk from './component/Functional-components/UploadImageToS3WithNativeSdk';
 
-import SelectData  from "./component/Functional-components/SelectData";
+import SelectData  from "./component/Functional-components/Select/SelectData";
 import Toastify from "./component/Functional-components/Toastify";
 
 // import Alert from "./component/Functional-components/Alert";
